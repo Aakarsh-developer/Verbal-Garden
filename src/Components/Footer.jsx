@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      {/* Top Footer Section */}
       <div className="bg-green-600 w-full p-6 flex flex-col sm:flex-row sm:justify-around sm:text-left text-center text-white">
         
-        {/* Quick Links */}
         <div className="mb-6 sm:mb-0">
           <h3 className="text-lg font-bold mb-2">Quick Links</h3>
           <ul className="list-none text-sm space-y-1">
@@ -19,7 +17,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div className="mb-6 sm:mb-0">
           <h4 className="text-lg font-bold mb-2">Contact</h4>
           <ul className="list-none text-sm space-y-1">
@@ -29,7 +26,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Follow Us */}
         <div>
           <h4 className="text-lg font-bold mb-2">Follow Us</h4>
           <div className="flex justify-center sm:justify-start space-x-4 mt-3">
@@ -41,7 +37,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Footer */}
       <div className="bg-green-950 py-3">
         <p className="text-sm text-center text-white">
           <span className="text-orange-400 font-semibold">@ Virtual Herbal Garden</span> — All Rights Reserved.  

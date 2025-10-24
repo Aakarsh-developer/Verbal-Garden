@@ -38,7 +38,6 @@ export default function Home() {
         </div>
       </div>   
 
-      {/* About section */}
       <div className='flex flex-col md:flex-row mb-9 px-4 md:px-16 gap-5'>
         <div className='w-full md:w-auto md:ml-8 md:mr-5'>
           <h3 className='text-2xl font-bold pb-6 text-center md:text-left'>About</h3>

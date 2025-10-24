@@ -1,13 +1,27 @@
 @import "tailwindcss";
 
+
+.cl-signIn-root,
+.cl-signUp-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.cl-modal-root {
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
 /* Hide scrollbar but allow scrolling */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 

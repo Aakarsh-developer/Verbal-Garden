@@ -18,4 +18,3 @@ export default function ThreeDViewer({ modelPath }) {
     </Canvas>
   );
 }
-// This component uses react-three-fiber to render a 3D model in a canvas. It imports the model using useGLTF from drei and allows for orbit controls to rotate around the model. The Stage component provides a nice environment for the model.

@@ -61,12 +61,12 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
         <directionalLight position={[5, 10, 5]} intensity={1.2} castShadow />
 
         <Suspense fallback={null}>
-          {/* 🌿 Plain 3D ground */}
+          {/*  Plain 3D ground */}
           <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
             <meshStandardMaterial color="#88c67e" />
           </mesh>
 
-          {/* 🌳 Background large plants / trees */}
+          {/*  Background large plants / trees */}
           <BackgroundPlant
             modelPath="/assets/3D models/plant4.glb"
             position={[-6, 60, -4]}
@@ -78,12 +78,11 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
             scale={2.5}
           />
 
-          {/* 🪴 Circular small plants */}
+          {/*  Circular small plants */}
           {circlePlants.map((p) => (
             <PlantModel key={p.id} modelPath={p.model} position={p.position} />
           ))}
 
-          {/* 🌼 Labels */}
           {!isAIPopupOpen &&
             circlePlants.map((p) => (
               <PlantMarker
@@ -94,7 +93,6 @@ export default function GardenScene({ onSelectPlant, isAIPopupOpen }) {
               />
             ))}
 
-          {/* 🌳 Realistic reflections */}
           <Environment preset="forest" />
         </Suspense>
 

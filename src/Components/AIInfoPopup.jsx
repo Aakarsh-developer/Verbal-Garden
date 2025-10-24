@@ -25,14 +25,11 @@ export default function AIInfoPopup({ plantName, onClose }) {
 
   return (
     <>
-      {/* Overlay with blur */}
       <div className="fixed inset-0 z-40 bg-opacity-40 backdrop-blur-sm transition-opacity duration-300 animate-fadeIn"></div>
 
-      {/* Popup */}
       <div className="fixed inset-0 z-50 flex items-center justify-center">
         <div className="fixed w-11/12 max-w-5xl h-5/6 bg-emerald-100 rounded-xl shadow-2xl overflow-y-auto p-6 transform transition-transform duration-300 animate-slideUp">
           
-          {/* Close Button */}
           <button
             className="absolute top-4 right-4 text-xl text-gray-600 hover:text-gray-900"
             onClick={onClose}
@@ -40,10 +37,8 @@ export default function AIInfoPopup({ plantName, onClose }) {
             ✕
           </button>
 
-          {/* Title */}
           <h2 className="text-2xl font-semibold mb-2">{plantName} - AI Herb Info</h2>
 
-          {/* Content */}
           {loading ? (
             <div className="flex justify-center items-center h-full text-2xl">
               <span className=" text-emerald-400">AI is thinking...</span>
@@ -60,7 +55,6 @@ export default function AIInfoPopup({ plantName, onClose }) {
         </div>
       </div>
 
-      {/* Animation styles */}
       <style jsx>{`
         @keyframes fadeIn {
           from { opacity: 0; }

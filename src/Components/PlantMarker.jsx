@@ -2,19 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import { useThree } from "@react-three/fiber";
 import { Vector3 } from "three";
 
-/**
- * Props:
- * - position: [x,y,z]  (3D world)
- * - label
- * - onClick
- */
 export default function PlantMarker({ position, label, onClick }) {
   const { camera, gl } = useThree();
   const [screenPos, setScreenPos] = useState({ x: -9999, y: -9999, visible: false });
 
   useEffect(() => {
     const v = new Vector3(...position);
-    // compute screen pos each frame (or on camera change)
     const update = () => {
       const width = gl.domElement.clientWidth;
       const height = gl.domElement.clientHeight;

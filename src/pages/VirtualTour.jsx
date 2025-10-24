@@ -1,6 +1,3 @@
-
-
-
 import { useState } from "react";
 import plants from "../data/plants.jsx";
 import Navbar from "../Components/Navbar";
@@ -20,9 +17,7 @@ export default function VirtualTour() {
     <>
       <Navbar />
 
-      {/* Main Body */}
       <div className="pt-10 min-h-screen bg-gradient-to-b from-green-200 to-green-100 text-green-900">
-        {/* Header */}
         <div className="text-center px-4 py-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-900 mb-4">
             Virtual Herbal Garden Tour
@@ -37,9 +32,7 @@ export default function VirtualTour() {
           </button>
         </div>
 
-        {/* Mission Section */}
         <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 p-4 sm:p-8 items-center">
-          {/* Image */}
           <div className="order-1 md:order-2 flex justify-center md:justify-end">
             <img
               src="./assets/Images/features plant.jpg"
@@ -48,7 +41,6 @@ export default function VirtualTour() {
             />
           </div>
 
-          {/* Key Features */}
           <div className="flex flex-col justify-center order-2 md:order-1 mt-6 sm:mt-0 sm:ml-4 md:ml-0">
             <div className="bg-green-200 py-3 px-4 sm:px-6 rounded-2xl sm:ml-4 md:ml-0">
               <h2 className="text-2xl sm:text-3xl font-bold text-center text-green-900 mb-2">
@@ -97,7 +89,6 @@ export default function VirtualTour() {
           </div>
         </div>
 
-        {/* Highlight Plants */}
         <div className="pt-5 px-4 sm:px-8 pb-8">
           <div className="bg-green-200 rounded-2xl py-7 px-4 sm:px-8">
             <h3 className="text-2xl sm:text-3xl font-bold mb-5">
@@ -125,7 +116,6 @@ export default function VirtualTour() {
           </div>
         </div>
 
-        {/* 🌿 Popup Modal */}
         {selectedPlant && (
           <div className="fixed inset-0 bg-green-100/60 backdrop-blur-sm flex justify-center items-center z-50 px-4">
             <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8 max-w-md w-full relative">

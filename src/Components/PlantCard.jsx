@@ -5,9 +5,7 @@ export default function PlantCard({ plant }) {
 
   return (
     <>
-      {/* Plant Card */}
       <div className="w-full sm:w-60 border rounded-xl shadow-md p-4 hover:shadow-lg transition-shadow duration-300 bg-white mx-auto">
-        {/* Image */}
         <div className="rounded-lg">
           <img
             src={plant.image}
@@ -16,12 +14,10 @@ export default function PlantCard({ plant }) {
           />
         </div>
 
-        {/* Plant Info */}
         <h2 className="text-base sm:text-lg font-semibold mt-2">{plant.name}</h2>
         <p className="text-xs sm:text-sm text-gray-500 italic">{plant.scientificName}</p>
         <p className="text-xs sm:text-sm text-gray-600 mt-1 truncate">{plant.description}</p>
 
-        {/* Button */}
         <button
           className="mt-3 bg-gray-100 text-black px-3 py-1 rounded-lg text-xs sm:text-sm transition-colors hover:bg-gray-200"
           onClick={() => setIsOpen(true)}
@@ -30,16 +26,13 @@ export default function PlantCard({ plant }) {
         </button>
       </div>
 
-      {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-4 sm:px-0">
-          {/* Background Blur */}
           <div
             className="absolute inset-0 bg-green-100/60 backdrop-blur-sm"
             onClick={() => setIsOpen(false)}
           ></div>
 
-          {/* Modal Content */}
           <div className="relative bg-white rounded-xl shadow-lg w-full max-w-md sm:max-w-lg p-4 overflow-y-auto max-h-[90vh]">
             <button
               className="absolute top-1 right-3 text-gray-500 hover:text-gray-800 text-xl font-bold"
