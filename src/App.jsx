@@ -6,17 +6,13 @@ import VirtualTour from "./pages/VirtualTour";
 import About from "./pages/About";
 import Threedmodel from "./Components/Threedmodel";
 import HighlightedPlant from "./pages/highlighted";
-import Navbar from "./Components/Navbar";
 import ProtectedRoute from "./Components/ProtectedRoute";
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
-
       <Routes>
-
         <Route path="/" element={<Home />} />
         <Route path="/plants" element={<PlantList />} />
         <Route path="/plants/:id" element={<PlantDetail />} />
