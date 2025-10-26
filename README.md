@@ -6,7 +6,7 @@ It combines **React**, **Three.js**, and **Tailwind CSS** to deliver an immersiv
 ---
 
 ## 🚀 Live Demo
-🔗 [Visit Virtual Herbal Garden](https://your-deployed-link.vercel.app)
+🔗 [Visit Virtual Herbal Garden](https://virtual-herbal-garden-tour.vercel.app/)
 
 ---
 
