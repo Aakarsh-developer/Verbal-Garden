@@ -1,12 +1,32 @@
-# React + Vite
+# 🌿 Virtual Herbal Garden
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Virtual Herbal Garden** is an interactive 3D web platform that allows users to explore various medicinal, aromatic, and culinary plants in a digital garden environment.  
+It combines **React**, **Three.js**, and **Tailwind CSS** to deliver an immersive 3D experience with AI-powered plant information and user authentication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 [Visit Virtual Herbal Garden](https://your-deployed-link.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Project Overview
+
+The Virtual Herbal Garden aims to promote awareness about medicinal and herbal plants by providing a **virtual experience** where users can:
+- View realistic **3D models** of plants 🌱  
+- Learn about their **scientific, medicinal, and traditional uses** 💊  
+- Interact with the garden through **search, filter, and AI-based information fetching**
+
+This project aligns with the **AYUSH sector** goals by spreading herbal knowledge using modern web technologies.
+
+---
+
+## 💡 Key Features
+
+- 🌿 **3D Visualization:** Explore interactive plant models using **Three.js** and **@react-three/fiber**
+- 🧭 **Virtual Tour:** Walk through categorized gardens — Medicinal, Aromatic, Ayurvedic, and Culinary plants
+- 🔍 **Dynamic Search:** Search for plants; fetch info dynamically from **Wikipedia**, **YouTube**, and **Sketchfab**
+- 🤖 **AI Assistance:** Get AI-generated insights about each plant using **Gemini AI / ChatGPT API**
+- 🔐 **User Authentication:** Secured login and signup using **Clerk**
+- 📱 **Responsive Design:** Fully optimized for mobile, tablet, and desktop
+- 📘 **Plant Information:** Botanical name, uses, origin, and healing properties
