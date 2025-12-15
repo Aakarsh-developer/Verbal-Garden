@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className='flex-1 md:mt-13 text-lg text-green-900 text-center md:text-left'>
           <p className='leading-8 mr-5'>
-            Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 30 plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.
+            Virtual Herbal Garden is a digital platform blending traditional herbal knowledge with modern technology, offering 3D plant models, scientific insights, and interactive learning features for students, researchers, and health enthusiasts. The platform serves as a bridge between ancient wisdom and modern science, helping users explore the medicinal value, growth patterns, and therapeutic applications of various herbs.Along with detailed plant information.
           </p>
           <button className='text-sm mt-6 rounded-lg w-60 h-9 font-bold bg-gray-100 hover:bg-green-800 hover:text-white'>
             <Link to={"/About"}>Learn More About Our Vision</Link>
