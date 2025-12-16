@@ -69,7 +69,7 @@ export default function VirtualTour() {
 
                 <div className="bg-white rounded-2xl shadow-md p-4 sm:p-6 text-center hover:scale-105">
                   <h3 className="text-lg sm:text-xl font-semibold">
-                    🌱 Ayurvedic Treasures
+                    🌱 Ayurvedic plants
                   </h3>
                 </div>
 
@@ -105,7 +105,7 @@ export default function VirtualTour() {
                   <img
                     src={plant.image}
                     alt={plant.name}
-                    className="h-24 w-full object-cover rounded-md mb-2"
+                    className="h-24 w-full object-cover rounded-md mb-2 bg-white"
                   />
                   <h3 className="text-base sm:text-lg font-semibold">
                     {plant.name}
